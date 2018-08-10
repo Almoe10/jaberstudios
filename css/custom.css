@@ -1,0 +1,31 @@
+.bg {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),url(../images/bg2.jpg);
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size:  cover;
+}
+
+.text {
+  color: rgba(255,255,255,.9);
+}
+
+/*Font awesome custom CSS*/
+div > a {
+  color: white;
+}
+
+.linkedin:hover {
+  color: rgb(0, 111, 166);
+}
+
+.facebook:hover{
+  color: rgb(59, 89, 152);
+}
+
+.github:hover{
+  color: red;
+}
